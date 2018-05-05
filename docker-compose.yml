@@ -1,0 +1,13 @@
+version: '2.3'
+services:
+  web:
+    build: .
+    restart: on-failure
+    networks:
+      - haproxy
+      - default
+    ports:
+      - 8844:80
+networks:
+  haproxy:
+    external: true
