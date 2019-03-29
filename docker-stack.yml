@@ -11,6 +11,8 @@ services:
     networks:
       - haproxy
       - default
+    ports:
+      - 8001:80
 networks:
   haproxy:
     external: true
