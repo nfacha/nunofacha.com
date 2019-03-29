@@ -1,0 +1,11 @@
+version: '3'
+services:
+  web:
+    image: "registry.gitlab.com/nunofacha/nunofacha.com"
+    restart: "always"
+    networks:
+      - haproxy
+      - default
+networks:
+  haproxy:
+    external: true
