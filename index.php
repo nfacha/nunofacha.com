@@ -613,7 +613,7 @@
                     <div class="item col-md-3">
                         <a class="image-link" href="img/websummit-2019/IMG_20191106_162024.jpg">
                             <figure>
-                                <img alt="" src="img/websummit-2019/IMG_20191106_162024.jpg">
+                                <img alt="" src="img/websummit-2019/IMG_20191106_162024-min.jpg">
                                 <figcaption>
                                     <h4>WebSummit 2019</h4>
                                     <p>Lisbon, Portugal</p>
@@ -624,7 +624,7 @@
                     <div class="item col-md-3">
                         <a class="image-link" href="img/websummit-2019/IMG_20191107_111841.jpg">
                             <figure>
-                                <img alt="" src="img/websummit-2019/IMG_20191107_111841.jpg">
+                                <img alt="" src="img/websummit-2019/IMG_20191107_111841-min.jpg">
                                 <figcaption>
                                     <h4>WebSummit 2019</h4>
                                     <p>Lisbon, Portugal</p>
@@ -635,7 +635,7 @@
                     <div class="item col-md-3">
                         <a class="image-link" href="img/websummit-2019/IMG_20191107_163005.jpg">
                             <figure>
-                                <img alt="" src="img/websummit-2019/IMG_20191107_163005.jpg">
+                                <img alt="" src="img/websummit-2019/IMG_20191107_163005-min.jpg">
                                 <figcaption>
                                     <h4>WebSummit 2019</h4>
                                     <p>Lisbon, Portugal</p>
@@ -646,7 +646,7 @@
                     <div class="item col-md-3">
                         <a class="image-link" href="img/websummit-2019/IMG_20191107_170708.jpg">
                             <figure>
-                                <img alt="" src="img/websummit-2019/IMG_20191107_170708.jpg">
+                                <img alt="" src="img/websummit-2019/IMG_20191107_170708-min.jpg">
                                 <figcaption>
                                     <h4>WebSummit 2019</h4>
                                     <p>Lisbon, Portugal</p>
