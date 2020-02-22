@@ -130,7 +130,7 @@
 
 
         <!--Banner Section Start-->
-        <section class="banner-section pt-page" id="home" style="background-image: url('img/background/home-bg.jpg')">
+        <section class="banner-section pt-page" id="home" style="background-image: url('img/background/home-bg-min.jpg')">
 
             <!--Particle Container-->
             <div id="particles-js"></div>
