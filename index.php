@@ -81,11 +81,11 @@
                 <nav class="nav-menu">
                     <ul>
                         <li><a class="pt-link active" href="#home"><span class="nav-menu-icon"><i
-                                class="lnr lnr-home"></i></span>Home </a></li>
+                                            class="lnr lnr-home"></i></span>Home </a></li>
                         <li><a class="pt-link" href="#about"><span class="nav-menu-icon"><i
-                                class="lnr lnr-user"></i></span>About Me</a></li>
+                                            class="lnr lnr-user"></i></span>About Me</a></li>
                         <li><a class="pt-link" href="#resume"><span class="nav-menu-icon"><i
-                                class="lnr lnr-license"></i></span>Resume</a></li>
+                                            class="lnr lnr-license"></i></span>Resume</a></li>
                         <!--                        <li><a href="#portfolio" class="pt-link"><span class="nav-menu-icon"><i-->
                         <!--                                class="lnr lnr-briefcase"></i></span>Portfolio</a></li>-->
                         <!--                        <li><a href="#contact" class="pt-link"><span class="nav-menu-icon"><i-->
@@ -101,6 +101,7 @@
                         </li>
                         <li><a href="https://www.facebook.com/nuno.facha"><i class="fab fa-twitter-square"></i></a></li>
                         <li><a href="https://www.linkedin.com/in/nunofacha/"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/nfacha"><i class="fab fa-github"></i></a></li>
                     </ul>
                     <!--Copyright Text-->
                     <div class="copy">
@@ -367,7 +368,7 @@
                                     </p>
                                 </div>
                                 <span class="year">
-                                            <span class="to"><?=date('Y')?></span>
+                                            <span class="to"><?= date( 'Y' ) ?></span>
                                             <span class="from">2020</span>
                                         </span>
                             </li>
@@ -388,7 +389,7 @@
                                     </p>
                                 </div>
                                 <span class="year">
-                                            <span class="to"><?=date('Y')?></span>
+                                            <span class="to"><?= date( 'Y' ) ?></span>
                                             <span class="from">2018</span>
                                         </span>
                             </li>
