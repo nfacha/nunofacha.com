@@ -107,7 +107,7 @@
                         <li><a href="https://www.facebook.com/nuno.facha" target="_blank"><i
                                         class="fab fa-facebook-square"></i></a>
                         </li>
-                        <li><a href="https://www.facebook.com/nuno.facha" target="_blank"><i
+                        <li><a href="https://twiter.com/nfacha" target="_blank"><i
                                         class="fab fa-twitter-square"></i></a></li>
                         <li><a href="https://www.linkedin.com/in/nunofacha/ target=" _blank""><i
                                     class="fab fa-linkedin"></i></a></li>
