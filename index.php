@@ -174,7 +174,7 @@
                             communities.</p>
 
                         <p>When forced indoors, I follow a number of sci-fi, drama and fantasy genre movies and
-                            television shows, I spend a large amount of my free time exploring the latest technolgy
+                            television shows, I spend a large amount of my free time exploring the latest technology
                             advancements in the development and server management world.</p>
 
                     </div>
