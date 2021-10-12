@@ -7,6 +7,23 @@
 <body>
 <h1>Facha's Crypto Keys</h1>
 <small>Last Update: 12-10-2021</small>
+<h3>OpenSSH Key 1 (FIDO2 Protected)</h3>
+<pre>
+    <code>
+sk-ecdsa-sha2-nistp256@openssh.com AAAAInNrLWVjZHNhLXNoYTItbmlzdHAyNTZAb3BlbnNzaC5jb20AAAAIbmlzdHAyNTYAAABBBP7SIZ0ZKQAJ+xSr6LuhUvANJYjHxuV3X2L9xHzhOWxO3njYsLF35dNaqKd6smmDoBP0Ww2fSk4TkVbXq6dXg8UAAAAEc3NoOg== facha
+    </code>
+</pre>
+<p><strong>SSH Key Install</strong></p>
+<pre>
+    <code>
+mkdir -p ~/.ssh;
+chmod 700 ~/.ssh;
+echo "sk-ecdsa-sha2-nistp256@openssh.com AAAAInNrLWVjZHNhLXNoYTItbmlzdHAyNTZAb3BlbnNzaC5jb20AAAAIbmlzdHAyNTYAAABBBP7SIZ0ZKQAJ+xSr6LuhUvANJYjHxuV3X2L9xHzhOWxO3njYsLF35dNaqKd6smmDoBP0Ww2fSk4TkVbXq6dXg8UAAAAEc3NoOg== facha" >> ~/.ssh/authorized_keys;
+chmod 600 ~/.ssh/authorized_keys;
+    </code>
+</pre>
+
+<hr>
 <h2>RSA</h2>
 
 <h3>Key 1 (1024 Bit)</h3>
@@ -82,23 +99,6 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAEAQDrgzXHr5U3kmWlMjXSDTPDx7e9NfxMmjE45GtUVfny
 mkdir -p ~/.ssh;
 chmod 700 ~/.ssh;
 echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAEAQDrgzXHr5U3kmWlMjXSDTPDx7e9NfxMmjE45GtUVfnyLgFnqIw3b19tGY03AwZJfu3ZRQqPVjKnLAIEUq+hyYRXGveflkD3gXViePXUyyXoPoJWF82UfgOjHBCLEw57Ox1eu1imEmtY0lsOnS3kUluTno5MgLM87zkOgVk5c/XajF2zeyhPdhrV08/jaZPCeow1Zu2UWbgex0Ero841FSzjmn9SUG/3isFnIYEbUDA6Jd93wANxIWT4fhkhq7gX1W5laGCaBKJ7lyfTzmYdThE37+ZBqoSisKEgV884ZbFUGMGVELwyeL0ADyhmKZf7tKDVBlpPmP9BYI4Rs/HF4x60Fp7yDa8cU6sEMB9cDF5te9cOoEUpzi3CRDRqmLGTH8B0V/R+x01xqQSJMCcqrKe3iZTsw0rQXrnlBT5dzrg/TyGY1xKHw930pqvWKSFDSzXcSSJW2fVuGVO9ZbpZLdWUjG/pZx6TvuKdXLMPbZxvwEYhwnaBM9/Wtjl+B+K6CTgog1O8bXFLfnbRavFwHCr7wihNA2kCT7WzZY45w08HYpMWbj9rXhsL3jCXj1jrLIX48x9SiorzkPN1z7masRylFwfXjDJOA9dakZrjpYvnJZfXre6lbH0DVRJWLYOFaiGGaFCSDwkBe3UhiyzM7gXJXwJDte4Zp5woxmlJTLQWcGxkPMckIkwTe6Rkp9mwBGGboxT49ujtgmwEvQ9BNY7wlTV0H0HdzORLJDzkcUIgHQi5n5HX/JFWBbd/Ha56qJfwFEs42k1XEb1RFdPbHTwnLDZOWoaMSHMieSSTFp/o8lTWT2LGl/9V2VtiM9kVZzqdU4QshMoJ46g3FVm/xcBGtabqoziQ5303NrMxuRtAS68bml7iRxUxFOeylXxAVDrd2vQPCcZqP8Gg8D+NOMHmkQZ68Ot86oQNIVpzyQULqV8yaF3sK9RDnNX6lQoRiv9Lo+AFqqPoibLW+jGQ800yoohF/Sh4Vod0KxmPGdglWqYMZBx0LvESjQ/DULQ2g+laqFQ4Q+PoQyZ0igECpEgbo2www4YM34ekLWyDg5lIsOa6gp2zgbTjcNmgXM7WG+8Q/L/aajRbuETjhmbCDtek3iqXgYJ7C7WAoVdKMs3tbkhi8hEBYy2tSWny5oq1PkiF1kXtg25pDBL9GH64s8wR1vuC/ONoVd4a900yVYYajXsvQncXR9T5rkGR791DRetsWbxZu4seWcHTTUkkDhPnopn94+0qYaHbubByICX4o3z5E1MtjFFwviy/QqLqVb4wUu7HdEli/8FZ1oKrteXKzTIG7iYP3ClACA2TTTOUP8lnKlKI23FivrhZUXclHOWPyMX8QHsAPyU46zwS6Kgj facha2" >> ~/.ssh/authorized_keys;
-chmod 600 ~/.ssh/authorized_keys;
-    </code>
-</pre>
-
-<hr>
-<h3>OpenSSH Key 1 (FIDO2 Protected)</h3>
-<pre>
-    <code>
-sk-ecdsa-sha2-nistp256@openssh.com AAAAInNrLWVjZHNhLXNoYTItbmlzdHAyNTZAb3BlbnNzaC5jb20AAAAIbmlzdHAyNTYAAABBBP7SIZ0ZKQAJ+xSr6LuhUvANJYjHxuV3X2L9xHzhOWxO3njYsLF35dNaqKd6smmDoBP0Ww2fSk4TkVbXq6dXg8UAAAAEc3NoOg== facha
-    </code>
-</pre>
-<p><strong>SSH Key Install</strong></p>
-<pre>
-    <code>
-mkdir -p ~/.ssh;
-chmod 700 ~/.ssh;
-echo "sk-ecdsa-sha2-nistp256@openssh.com AAAAInNrLWVjZHNhLXNoYTItbmlzdHAyNTZAb3BlbnNzaC5jb20AAAAIbmlzdHAyNTYAAABBBP7SIZ0ZKQAJ+xSr6LuhUvANJYjHxuV3X2L9xHzhOWxO3njYsLF35dNaqKd6smmDoBP0Ww2fSk4TkVbXq6dXg8UAAAAEc3NoOg== facha" >> ~/.ssh/authorized_keys;
 chmod 600 ~/.ssh/authorized_keys;
     </code>
 </pre>
