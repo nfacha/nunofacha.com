@@ -68,6 +68,15 @@ $(document).ready(function () {
         new SimpleBar($($id)[0]);
     });
 
+    $(document).on('mouseup', function (e) {
+        var headerContainer = $('.header-main');
+
+        if (!headerContainer.is(e.target) && headerContainer.has(e.target).length === 0 && $(e.target).closest('.header-toggle').length === 0) {
+            $('.header-content').removeClass('on');
+        }
+
+    });
+
     /*======== Fitty Setup ========*/
     fitty('.header-name', {
         multiLine: false,
@@ -84,7 +93,9 @@ $(document).ready(function () {
 
     /*======== Mobile Toggle Click Setup ========*/
     $('.header-toggle').on('click', function () {
-        $('header .header-content').toggleClass('on');
+
+        $('.header-content').toggleClass('on');
+
     });
 
     /*========Clients OwlCarousel Setup========*/
