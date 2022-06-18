@@ -6,7 +6,7 @@
 </head>
 <body>
 <h1>Facha's Crypto Keys</h1>
-<small>Last Update: 12-10-2021</small>
+<small>Last Update: 08-06-2022</small>
 <h3>OpenSSH Key 1 (FIDO2 Protected)</h3>
 <pre>
     <code>
@@ -25,35 +25,6 @@ chmod 600 ~/.ssh/authorized_keys;
 
 <hr>
 <h2>RSA</h2>
-
-<h3>Key 1 (1024 Bit)</h3>
-<pre>
-    <code>
----- BEGIN SSH2 PUBLIC KEY ----
-Comment: "rsa-key-20140905"
-AAAAB3NzaC1yc2EAAAABJQAAAIEAveDJOZlpciJknNrVeg54aANoAbHy8ortpYhk
-5z969QN8rdJPY50Qdlgr9ssQKd15RZKV15kzOCmGSgP/TfgK1S94yQG5GrWPLYiJ
-97GLPgc1FEbmlGoTqaXdBOhj/p39tum5rhpxsYR9JDmOq1QR6CztCghDYpBm2d0x
-BTU6f2U=
----- END SSH2 PUBLIC KEY ----
-    </code>
-</pre>
-
-<p><strong>SSH Key</strong></p>
-<pre>
-    <code>
-ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAIEAveDJOZlpciJknNrVeg54aANoAbHy8ortpYhk5z969QN8rdJPY50Qdlgr9ssQKd15RZKV15kzOCmGSgP/TfgK1S94yQG5GrWPLYiJ97GLPgc1FEbmlGoTqaXdBOhj/p39tum5rhpxsYR9JDmOq1QR6CztCghDYpBm2d0xBTU6f2U=
-    </code>
-</pre>
-<p><strong>SSH Key Install</strong></p>
-<pre>
-    <code>
-mkdir -p ~/.ssh;
-chmod 700 ~/.ssh;
-echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAIEAveDJOZlpciJknNrVeg54aANoAbHy8ortpYhk5z969QN8rdJPY50Qdlgr9ssQKd15RZKV15kzOCmGSgP/TfgK1S94yQG5GrWPLYiJ97GLPgc1FEbmlGoTqaXdBOhj/p39tum5rhpxsYR9JDmOq1QR6CztCghDYpBm2d0xBTU6f2U= facha" >> ~/.ssh/authorized_keys;
-chmod 600 ~/.ssh/authorized_keys;
-    </code>
-</pre>
 
 <hr>
 <h3>Key 2 (8192 Bit)</h3>
@@ -102,7 +73,35 @@ echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAEAQDrgzXHr5U3kmWlMjXSDTPDx7e9NfxMmjE45G
 chmod 600 ~/.ssh/authorized_keys;
     </code>
 </pre>
+<hr>
+<h3>Key 1 (1024 Bit) <span style="color:red; font-weight: bold">[DEPRECATED]</span></h3>
+<pre>
+    <code>
+---- BEGIN SSH2 PUBLIC KEY ----
+Comment: "rsa-key-20140905"
+AAAAB3NzaC1yc2EAAAABJQAAAIEAveDJOZlpciJknNrVeg54aANoAbHy8ortpYhk
+5z969QN8rdJPY50Qdlgr9ssQKd15RZKV15kzOCmGSgP/TfgK1S94yQG5GrWPLYiJ
+97GLPgc1FEbmlGoTqaXdBOhj/p39tum5rhpxsYR9JDmOq1QR6CztCghDYpBm2d0x
+BTU6f2U=
+---- END SSH2 PUBLIC KEY ----
+    </code>
+</pre>
 
+<p><strong>SSH Key</strong></p>
+<pre>
+    <code>
+ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAIEAveDJOZlpciJknNrVeg54aANoAbHy8ortpYhk5z969QN8rdJPY50Qdlgr9ssQKd15RZKV15kzOCmGSgP/TfgK1S94yQG5GrWPLYiJ97GLPgc1FEbmlGoTqaXdBOhj/p39tum5rhpxsYR9JDmOq1QR6CztCghDYpBm2d0xBTU6f2U=
+    </code>
+</pre>
+<p><strong>SSH Key Install</strong></p>
+<pre>
+    <code>
+mkdir -p ~/.ssh;
+chmod 700 ~/.ssh;
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAIEAveDJOZlpciJknNrVeg54aANoAbHy8ortpYhk5z969QN8rdJPY50Qdlgr9ssQKd15RZKV15kzOCmGSgP/TfgK1S94yQG5GrWPLYiJ97GLPgc1FEbmlGoTqaXdBOhj/p39tum5rhpxsYR9JDmOq1QR6CztCghDYpBm2d0xBTU6f2U= facha" >> ~/.ssh/authorized_keys;
+chmod 600 ~/.ssh/authorized_keys;
+    </code>
+</pre>
 <hr>
 <h1>PGP</h1>
 <h3>Key 1</h3>
