@@ -27,6 +27,11 @@
         <priority>0.70</priority>
     </url>
     <url>
+        <loc>https://sdr.facha.dev</loc>
+        <lastmod>2022-09-22T00:00:00+00:00</lastmod>
+        <priority>0.60</priority>
+    </url>
+    <url>
         <loc>https://docs.api.facha.dev</loc>
         <lastmod>2022-08-03T00:00:00+00:00</lastmod>
         <priority>0.77</priority>
