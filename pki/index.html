@@ -12,7 +12,7 @@
             max-width: 700px;
             margin: auto;
         }
-        .command {
+        .command, .instructions {
             background-color: #f4f4f4;
             padding: 15px;
             border: 1px solid #ddd;
@@ -25,6 +25,8 @@
     <div class="container">
         <h1>Facha's Private PKI</h1>
         <p>This is Facha's private PKI. Certificates can only be issued from within the homelab or through an IPSec tunnel.</p>
+        
+        <h2>Trust the CA</h2>
         <p>To trust its CA, download one of the following files:</p>
         <ul>
             <li><a href="root-ca.pem">root-ca.pem</a></li>
@@ -32,7 +34,18 @@
         </ul>
         <p>For Ubuntu, use the following command:</p>
         <div class="command">
-            wget -O root-ca.crt https://facha.dev/pki/root-ca.pem && sudo cp root-ca.crt /usr/local/share/ca-certificates/ && sudo update-ca-certificates
+            wget -O root-ca.crt http://pki.home/certs/root-ca.pem && sudo cp root-ca.crt /usr/local/share/ca-certificates/ && sudo update-ca-certificates
+        </div>
+
+        <h2>Issue a Certificate</h2>
+        <p>To issue a certificate for a machine within the homelab:</p>
+        <div class="instructions">
+            <p>1. Ensure that the CA is trusted on the machine requesting the certificate.</p>
+            <p>2. Use the following command to request a certificate:</p>
+            <div class="command">
+                certbot certonly --standalone --server http://pki.home/directory --agree-tos -d domain.com
+            </div>
+            <p>Replace <code>domain.com</code> with the actual domain you want to secure.</p>
         </div>
     </div>
 </body>
