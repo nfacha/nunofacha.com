@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Facha's Private PKI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        .container {
+            max-width: 700px;
+            margin: auto;
+        }
+        .command {
+            background-color: #f4f4f4;
+            padding: 15px;
+            border: 1px solid #ddd;
+            overflow: auto;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Facha's Private PKI</h1>
+        <p>This is Facha's private PKI. Certificates can only be issued from within the homelab or through an IPSec tunnel.</p>
+        <p>To trust its CA, download one of the following files:</p>
+        <ul>
+            <li><a href="root-ca.pem">root-ca.pem</a></li>
+            <li><a href="root-ca.der">root-ca.der</a></li>
+        </ul>
+        <p>For Ubuntu, use the following command:</p>
+        <div class="command">
+            wget -O root-ca.crt https://facha.dev/pki/root-ca.pem && sudo cp root-ca.crt /usr/local/share/ca-certificates/ && sudo update-ca-certificates
+        </div>
+    </div>
+</body>
+</html>
