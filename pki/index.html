@@ -45,6 +45,10 @@
             <div class="command">
                 certbot certonly --standalone --server http://pki.home/directory --agree-tos -d domain.com
             </div>
+            <p>To use DNS validation with PowerDNS use the following</p>
+            <div class="command">
+                certbot certonly --server http://pki.home/directory --agree-tos --authenticator dns-powerdns --dns-powerdns-credentials ~/pdns-credentials.ini -d domain.com
+            </div>
             <p>Replace <code>domain.com</code> with the actual domain you want to secure.</p>
         </div>
     </div>
